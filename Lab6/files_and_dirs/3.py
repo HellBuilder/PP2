@@ -9,5 +9,5 @@ def check_path(path):
     else:
         print("Path does not exist.")
 
-path = r"C:\Users\Admin\Desktop\PP2-Repos\PP2\TSIS6_LAB6\files_and_dirs\test.txt"
+path = r"C:\Users\Aphelios\Documenets\GitHub\PP2\Lab6\files_and_dirs\test.txt"
 check_path(path)

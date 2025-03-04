@@ -3,4 +3,4 @@ def copy_file(source, destination):
     with open(source, "r", encoding="utf-8") as src, open(destination, "w", encoding="utf-8") as dest:
         dest.write(src.read())
 
-copy_file(r"C:\Users\Admin\Desktop\PP2-Repos\PP2\TSIS6_LAB6\files_and_dirs\source.txt", r"C:\Users\Admin\Desktop\PP2-Repos\PP2\TSIS6_LAB6\files_and_dirs\destinationt.txt")
+copy_file(r"C:\Users\Aphelios\Documenets\GitHub\PP2\Lab6\files_and_dirs\source.txt", r"C:\Users\Aphelios\Documenets\GitHub\PP2\Lab6\files_and_dirs\destinationt.txt")
