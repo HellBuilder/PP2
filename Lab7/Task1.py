@@ -5,10 +5,10 @@ import math
 pygame.init()
 screen = pygame.display.set_mode((400, 400))
 clock = pygame.time.Clock()
-mickey = pygame.image.load("mickeyclock.jpg")
+mickey = pygame.image.load("Lab7\mickeyclock.png")
 mickey = pygame.transform.scale(mickey, (300, 300))
-minute_hand = pygame.image.load("minute_hand.png")
-second_hand = pygame.image.load("second_hand.png")
+minute_hand = pygame.image.load("Lab7\minute_hand.png")
+second_hand = pygame.image.load("Lab7\second_hand.png")
 center = (200, 200)
 
 def rotate_image(image, angle, position):
